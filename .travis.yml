@@ -1,5 +1,4 @@
 language: objective-c
-osx_image: xcode12.5
-
-script:
-  - xcodebuild test -project SwiftlintDangerSample.xcodeproj -scheme SwiftlintDangerSample -destination "platform=iOS Simulator,name=iPhone 8" -sdk iphonesimulator11.3 CODE_SIGNING_REQUIRED=NO
+xcode_project: SwiftlintDangerSample.xcodeproj
+xcode_scheme: SwiftlintDangerSample
+xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
