@@ -2,4 +2,4 @@ language: objective-c
 osx_image: xcode12.5
 xcode_project: SwiftlintDangerSample.xcodeproj
 xcode_scheme: SwiftlintDangerSample
-xcode_sdk: phonesimulator14.5
+xcode_sdk: iphonesimulator14.5
