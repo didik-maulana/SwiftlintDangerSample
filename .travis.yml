@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode13
+osx_image: xcode12.5
 
 script:
-  - xcodebuild test -project SwiftlintDangerSample.xcodeproj -scheme SwiftlintDangerSample -destination "platform=iOS Simulator,name=iPhone 8" -sdk iphonesimulator13.0 CODE_SIGNING_REQUIRED=NO
+  - xcodebuild test -project SwiftlintDangerSample.xcodeproj -scheme SwiftlintDangerSample -destination "platform=iOS Simulator,name=iPhone 8" -sdk iphonesimulator11.3 CODE_SIGNING_REQUIRED=NO
