@@ -76,6 +76,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46702332271E5E290013509B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				46D0E90D271D6CC00042446C /* AppDelegate.swift */,
+				46D0E90F271D6CC00042446C /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		46702334271EAABD0013509B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46D0E911271D6CC00042446C /* ViewController.swift */,
+				46D0E913271D6CC00042446C /* Main.storyboard */,
+				46D0E918271D6CC10042446C /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46702335271EAB6D0013509B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				46D0E916271D6CC10042446C /* Assets.xcassets */,
+				46D0E91B271D6CC10042446C /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		46D0E901271D6CC00042446C = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +127,9 @@
 		46D0E90C271D6CC00042446C /* SwiftlintDangerSample */ = {
 			isa = PBXGroup;
 			children = (
-				46D0E90D271D6CC00042446C /* AppDelegate.swift */,
-				46D0E90F271D6CC00042446C /* SceneDelegate.swift */,
-				46D0E911271D6CC00042446C /* ViewController.swift */,
-				46D0E913271D6CC00042446C /* Main.storyboard */,
-				46D0E916271D6CC10042446C /* Assets.xcassets */,
-				46D0E918271D6CC10042446C /* LaunchScreen.storyboard */,
-				46D0E91B271D6CC10042446C /* Info.plist */,
+				46702332271E5E290013509B /* App */,
+				46702335271EAB6D0013509B /* SupportingFiles */,
+				46702334271EAABD0013509B /* Views */,
 			);
 			path = SwiftlintDangerSample;
 			sourceTree = "<group>";
@@ -437,7 +461,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftlintDangerSample/Info.plist;
+				INFOPLIST_FILE = SwiftlintDangerSample/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +479,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftlintDangerSample/Info.plist;
+				INFOPLIST_FILE = SwiftlintDangerSample/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
