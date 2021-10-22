@@ -14,7 +14,7 @@ class PokemonTest: XCTestCase {
   private let pokemonType: PokemonType = .attacker
   private let pokemonImageName: String = "sylveon"
   private let pokemonSkills: String = "Attacker, Ranged"
-  private var pokemon: Pokemon? = nil
+  private var pokemon: Pokemon?
   
   override func setUpWithError() throws {
     pokemon = Pokemon(

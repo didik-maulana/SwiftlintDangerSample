@@ -36,6 +36,6 @@ struct DefenderPokemon {
       type: .defender,
       imageName: "slowbro",
       skills: "Defender, Ranged"
-    ),
+    )
   ]
 }
