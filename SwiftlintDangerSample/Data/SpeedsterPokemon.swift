@@ -30,6 +30,6 @@ struct SpeedsterPokemon {
       type: .speedster,
       imageName: "gengar",
       skills: "Speedster, Melee"
-    ),
+    )
   ]
 }

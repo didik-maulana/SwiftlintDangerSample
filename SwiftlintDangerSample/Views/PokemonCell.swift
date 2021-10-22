@@ -30,7 +30,7 @@ class PokemonCell: UITableViewCell {
       thumbnailBackgroundView.backgroundColor = #colorLiteral(red: 0.9803921569, green: 0.6941176471, blue: 0.6274509804, alpha: 1)
     case .speedster:
       thumbnailBackgroundView.backgroundColor = #colorLiteral(red: 0.4549019608, green: 0.7254901961, blue: 1, alpha: 1)
-    case .all_rounder:
+    case .allRounder:
       thumbnailBackgroundView.backgroundColor = #colorLiteral(red: 0.6352941176, green: 0.6078431373, blue: 0.9960784314, alpha: 1)
     case .defender:
       thumbnailBackgroundView.backgroundColor = #colorLiteral(red: 0.3333333333, green: 0.937254902, blue: 0.768627451, alpha: 1)
