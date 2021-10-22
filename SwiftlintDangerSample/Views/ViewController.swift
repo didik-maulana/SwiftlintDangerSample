@@ -8,9 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+  
+  private let pokemons: [Pokemon] = AllPokemon().data.shuffled()
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  }
 }
-
