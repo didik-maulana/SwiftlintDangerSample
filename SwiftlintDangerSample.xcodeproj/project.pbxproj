@@ -16,13 +16,13 @@
 		46CD9D3427224EB700380E4F /* SupporterPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD9D3327224EB700380E4F /* SupporterPokemon.swift */; };
 		46CD9D3627224F3D00380E4F /* AllPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD9D3527224F3D00380E4F /* AllPokemon.swift */; };
 		46CD9D392722525400380E4F /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD9D372722525400380E4F /* PokemonCell.swift */; };
+		46CD9D3F272263A300380E4F /* PokemonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD9D3E272263A300380E4F /* PokemonTest.swift */; };
 		46D0E90E271D6CC00042446C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0E90D271D6CC00042446C /* AppDelegate.swift */; };
 		46D0E910271D6CC00042446C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0E90F271D6CC00042446C /* SceneDelegate.swift */; };
 		46D0E912271D6CC00042446C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0E911271D6CC00042446C /* ViewController.swift */; };
 		46D0E915271D6CC00042446C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D0E913271D6CC00042446C /* Main.storyboard */; };
 		46D0E917271D6CC10042446C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D0E916271D6CC10042446C /* Assets.xcassets */; };
 		46D0E91A271D6CC10042446C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D0E918271D6CC10042446C /* LaunchScreen.storyboard */; };
-		46D0E925271D6CC20042446C /* SwiftlintDangerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0E924271D6CC20042446C /* SwiftlintDangerSampleTests.swift */; };
 		46D0E930271D6CC20042446C /* SwiftlintDangerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0E92F271D6CC20042446C /* SwiftlintDangerSampleUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +53,7 @@
 		46CD9D3327224EB700380E4F /* SupporterPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupporterPokemon.swift; sourceTree = "<group>"; };
 		46CD9D3527224F3D00380E4F /* AllPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPokemon.swift; sourceTree = "<group>"; };
 		46CD9D372722525400380E4F /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		46CD9D3E272263A300380E4F /* PokemonTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTest.swift; sourceTree = "<group>"; };
 		46D0E90A271D6CC00042446C /* SwiftlintDangerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftlintDangerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D0E90D271D6CC00042446C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46D0E90F271D6CC00042446C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		46D0E919271D6CC10042446C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46D0E91B271D6CC10042446C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46D0E920271D6CC20042446C /* SwiftlintDangerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftlintDangerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		46D0E924271D6CC20042446C /* SwiftlintDangerSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftlintDangerSampleTests.swift; sourceTree = "<group>"; };
 		46D0E926271D6CC20042446C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46D0E92B271D6CC20042446C /* SwiftlintDangerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftlintDangerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D0E92F271D6CC20042446C /* SwiftlintDangerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftlintDangerSampleUITests.swift; sourceTree = "<group>"; };
@@ -180,8 +180,8 @@
 		46D0E923271D6CC20042446C /* SwiftlintDangerSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				46D0E924271D6CC20042446C /* SwiftlintDangerSampleTests.swift */,
 				46D0E926271D6CC20042446C /* Info.plist */,
+				46CD9D3E272263A300380E4F /* PokemonTest.swift */,
 			);
 			path = SwiftlintDangerSampleTests;
 			sourceTree = "<group>";
@@ -344,7 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46D0E925271D6CC20042446C /* SwiftlintDangerSampleTests.swift in Sources */,
+				46CD9D3F272263A300380E4F /* PokemonTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
