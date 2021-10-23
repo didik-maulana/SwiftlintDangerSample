@@ -10,4 +10,5 @@ struct Pokemon {
   let type: PokemonType
   let imageName: String
   let skills: String
+  let healts: Int = 0
 }
