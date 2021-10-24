@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46008715272421CE00A7C565 /* SampleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46008714272421CE00A7C565 /* SampleTest.swift */; };
 		460AFD4727226913007B8788 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 460AFD4627226913007B8788 /* .swiftlint.yml */; };
 		46CD9D2727224A7900380E4F /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD9D2627224A7900380E4F /* Pokemon.swift */; };
 		46CD9D2927224AFA00380E4F /* PokemonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD9D2827224AFA00380E4F /* PokemonType.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46008714272421CE00A7C565 /* SampleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTest.swift; sourceTree = "<group>"; };
 		460AFD4627226913007B8788 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		46CD9D2627224A7900380E4F /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		46CD9D2827224AFA00380E4F /* PokemonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonType.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			children = (
 				46D0E926271D6CC20042446C /* Info.plist */,
 				46CD9D3E272263A300380E4F /* PokemonTest.swift */,
+				46008714272421CE00A7C565 /* SampleTest.swift */,
 			);
 			path = SwiftlintDangerSampleTests;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46CD9D3F272263A300380E4F /* PokemonTest.swift in Sources */,
+				46008715272421CE00A7C565 /* SampleTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,9 @@ struct Pokemon {
   let name: String
   let type: PokemonType
   let imageName: String
-  let skills: String
+  let skills : String
+  
+  func getFullName() -> String {
+    return name + " Unite"
+  }
 }
