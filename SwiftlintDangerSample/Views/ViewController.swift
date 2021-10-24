@@ -26,16 +26,21 @@ extension ViewController: UITableViewDataSource {
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    guard let cell = tableView.dequeueReusableCell(withIdentifier: PokemonCell.identifier, for: indexPath) as? PokemonCell else {
-      fatalError("Unable to dequeue \(PokemonCell.identifier)")
+    if let cell = tableView.dequeueReusableCell(withIdentifier: PokemonCell.identifier, for: indexPath) as? PokemonCell {
+      var data: Any
+      data = pokemons[indexPath.row]
+      
+      let pokemon = data as! Pokemon
+      cell.bind(pokemon: pokemon)
+      return cell
+    } else {
+      return UITableViewCell()
     }
-    cell.bind(pokemon: pokemons[indexPath.row])
-    return cell
   }
 }
 
 extension ViewController: UITableViewDelegate {
-  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+  func tableView(_ tableView: UITableView,didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
   }
 }

@@ -26,20 +26,55 @@ class PokemonCell: UITableViewCell {
   
   func bind(pokemon: Pokemon) {
     switch pokemon.type {
-    case .attacker:
+      case .attacker:
       thumbnailBackgroundView.backgroundColor = #colorLiteral(red: 0.9803921569, green: 0.6941176471, blue: 0.6274509804, alpha: 1)
     case .speedster:
       thumbnailBackgroundView.backgroundColor = #colorLiteral(red: 0.4549019608, green: 0.7254901961, blue: 1, alpha: 1)
-    case .allRounder:
+    case .all_rounder:
       thumbnailBackgroundView.backgroundColor = #colorLiteral(red: 0.6352941176, green: 0.6078431373, blue: 0.9960784314, alpha: 1)
     case .defender:
       thumbnailBackgroundView.backgroundColor = #colorLiteral(red: 0.3333333333, green: 0.937254902, blue: 0.768627451, alpha: 1)
     case .supporter:
       thumbnailBackgroundView.backgroundColor = #colorLiteral(red: 1, green: 0.9176470588, blue: 0.6549019608, alpha: 1)
     }
+    
+    
     thumbnailBackgroundView.layer.cornerRadius = 10
-    thumbnailImageView.image = UIImage(named: pokemon.imageName)
+    thumbnailImageView.image = UIImage(named:pokemon.image_name)
     nameLabel.text = pokemon.name
     typeLabel.text = pokemon.skills
+    
+    // Test function body length
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+    resetTypeLabel()
+  }
+  
+  private func resetTypeLabel() {
+    typeLabel.text = ""
   }
 }
