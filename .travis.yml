@@ -6,7 +6,9 @@ notifications:
 
 install:
   - ./install_swiftlint.sh
+  - brew install danger/tap/danger-swift
 
 script:
   - swiftlint
+  - danger-swift ci
   - xcodebuild test -project 'SwiftlintDangerSample.xcodeproj' -scheme 'SwiftlintDangerSample' -destination 'platform=iOS Simulator,OS=14.5,name=iPhone 11'
