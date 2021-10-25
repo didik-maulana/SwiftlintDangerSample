@@ -10,31 +10,31 @@ struct DefenderPokemon {
     Pokemon(
       name: "Mamoswine",
       type: .defender,
-      imageName: "mamoswine",
+      image_name: "mamoswine",
       skills: "Defender, Melee"
     ),
     Pokemon(
       name: "Blastoise",
       type: .defender,
-      imageName: "blastoise",
+      image_name: "blastoise",
       skills: "Defender, Ranged"
     ),
     Pokemon(
       name: "Snorlax",
       type: .defender,
-      imageName: "snorlax",
+      image_name: "snorlax",
       skills: "Defender, Melee"
     ),
     Pokemon(
       name: "Crustle",
       type: .defender,
-      imageName: "crustle",
+      image_name: "crustle",
       skills: "Defender, Melee"
     ),
     Pokemon(
       name: "Slowbro",
       type: .defender,
-      imageName: "slowbro",
+      image_name: "slowbro",
       skills: "Defender, Ranged"
     )
   ]

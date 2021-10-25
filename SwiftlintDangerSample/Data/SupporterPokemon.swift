@@ -10,25 +10,25 @@ struct SupporterPokemon {
     Pokemon(
       name: "Blissey",
       type: .supporter,
-      imageName: "blissey",
+      image_name: "blissey",
       skills: "Supporter, Melee"
     ),
     Pokemon(
       name: "Eldegoss",
       type: .supporter,
-      imageName: "eldegoss",
+      image_name: "eldegoss",
       skills: "Supporter, Ranged"
     ),
     Pokemon(
       name: "Mr. Mime",
       type: .supporter,
-      imageName: "mr_mime",
+      image_name: "mr_mime",
       skills: "Supporter, Melee"
     ),
     Pokemon(
       name: "Wigglytuff",
       type: .supporter,
-      imageName: "wigglytuff",
+      image_name: "wigglytuff",
       skills: "Supporter, Ranged"
     )
   ]

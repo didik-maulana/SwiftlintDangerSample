@@ -8,7 +8,7 @@
 enum PokemonType {
   case attacker
   case speedster
-  case allRounder
+  case all_rounder
   case defender
   case supporter
 }

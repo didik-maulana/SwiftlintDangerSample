@@ -6,8 +6,8 @@
 //
 
 struct Pokemon {
-  let name: String
+  let name : String
   let type: PokemonType
-  let imageName: String
+  let image_name: String
   let skills: String
 }

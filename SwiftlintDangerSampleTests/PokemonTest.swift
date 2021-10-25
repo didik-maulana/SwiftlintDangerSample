@@ -32,7 +32,7 @@ class PokemonTest: XCTestCase {
   func testPokemonShouldBeCorrectValue() throws {
     XCTAssertEqual(pokemon?.name, pokemonName)
     XCTAssertEqual(pokemon?.type, pokemonType)
-    XCTAssertEqual(pokemon?.imageName, pokemonImageName)
+    XCTAssertEqual(pokemon?.image_name, pokemonImageName)
     XCTAssertEqual(pokemon?.skills, pokemonSkills)
   }
 }

@@ -10,50 +10,50 @@ struct AttackerPokemon {
     Pokemon(
       name: "Sylveon",
       type: .attacker,
-      imageName: "sylveon",
+      image_name: "sylveon",
       skills: "Attacker, Ranged"
     ),
     Pokemon(
       name: "Gardevoir",
       type: .attacker,
-      imageName: "gardevoir",
+      image_name: "gardevoir",
       skills: "Attacker, Ranged"
     ),
     Pokemon(
       name: "Pikachu",
       type: .attacker,
-      imageName: "pikachu",
+      image_name: "pikachu",
       skills: "Attacker, Ranged"
     ),
     Pokemon(
       name: "Greninja",
       type: .attacker,
-      imageName: "greninja",
+      image_name: "greninja",
       skills: "Attacker, Ranged"
     ),
     Pokemon(
       name: "Venusaur",
       type: .attacker,
-      imageName: "venusaur",
+      image_name: "venusaur",
       skills: "Attacker, Ranged"
     ),
     Pokemon(
       name: "Alolan Ninetales",
       type: .attacker,
-      imageName: "alolan_ninetales",
+      image_name: "alolan_ninetales",
       skills: "Attacker, Ranged"
     ),
     Pokemon(
       name: "Cramorant",
       type: .attacker,
-      imageName: "cramorant",
+      image_name: "cramorant",
       skills: "Attacker, Ranged"
     ),
     Pokemon(
       name: "Cinderace",
       type: .attacker,
-      imageName: "cinderace",
+      image_name: "cinderace",
       skills: "Attacker, Ranged"
-    )
+    ),
   ]
 }

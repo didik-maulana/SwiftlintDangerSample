@@ -9,26 +9,26 @@ struct AllRounderPokemon {
   static let data: [Pokemon] = [
     Pokemon(
       name: "Charizard",
-      type: .allRounder,
-      imageName: "charizard",
+      type: .all_rounder,
+      image_name: "charizard",
       skills: "All-Rounder, Melee"
     ),
     Pokemon(
       name: "Lucario",
-      type: .allRounder,
-      imageName: "lucario",
+      type: .all_rounder,
+      image_name: "lucario",
       skills: "All-Rounder, Melee"
     ),
     Pokemon(
       name: "Machamp",
-      type: .allRounder,
-      imageName: "machamp",
+      type: .all_rounder,
+      image_name: "machamp",
       skills: "All-Rounder, Melee"
     ),
     Pokemon(
       name: "Garchomp",
-      type: .allRounder,
-      imageName: "garchomp",
+      type: .all_rounder,
+      image_name: "garchomp",
       skills: "All-Rounder, Melee"
     )
   ]

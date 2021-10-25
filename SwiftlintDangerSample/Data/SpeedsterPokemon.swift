@@ -10,25 +10,25 @@ struct SpeedsterPokemon {
     Pokemon(
       name: "Zeraora",
       type: .speedster,
-      imageName: "zeraora",
+      image_name: "zeraora",
       skills: "Speedster, Melee"
     ),
     Pokemon(
       name: "Talonflame",
       type: .speedster,
-      imageName: "talonflame",
+      image_name: "talonflame",
       skills: "Speedster, Melee"
     ),
     Pokemon(
       name: "Absol",
       type: .speedster,
-      imageName: "absol",
+      image_name: "absol",
       skills: "Speedster, Melee"
     ),
     Pokemon(
       name: "Gengar",
       type: .speedster,
-      imageName: "gengar",
+      image_name: "gengar",
       skills: "Speedster, Melee"
     )
   ]
