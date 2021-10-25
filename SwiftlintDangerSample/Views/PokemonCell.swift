@@ -25,7 +25,15 @@ class PokemonCell: UITableViewCell {
   }
   
   func bind(pokemon: Pokemon) {
-    switch pokemon.type {
+    renderThumbnailView(type: pokemon.type, imageName: pokemon.name)
+    renderLabelView(pokemonName: pokemon.name, pokemonSkills: pokemon.skills)
+  }
+  
+  private func renderThumbnailView(
+    type: PokemonType,
+    imageName: String
+  ) {
+    switch type {
     case .attacker:
       thumbnailBackgroundView.backgroundColor = #colorLiteral(red: 0.9803921569, green: 0.6941176471, blue: 0.6274509804, alpha: 1)
     case .speedster:
@@ -38,8 +46,14 @@ class PokemonCell: UITableViewCell {
       thumbnailBackgroundView.backgroundColor = #colorLiteral(red: 1, green: 0.9176470588, blue: 0.6549019608, alpha: 1)
     }
     thumbnailBackgroundView.layer.cornerRadius = 10
-    thumbnailImageView.image = UIImage(named: pokemon.imageName)
-    nameLabel.text = pokemon.name
-    typeLabel.text = pokemon.skills
+    thumbnailImageView.image = UIImage(named: imageName)
+  }
+  
+  private func renderLabelView(
+    pokemonName: String,
+    pokemonSkills: String
+  ) {
+    nameLabel.text = pokemonName
+    typeLabel.text = pokemonSkills
   }
 }
